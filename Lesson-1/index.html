@@ -3,16 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <title>First JS Project</title>
+
+    <script>
+        function changeColor(color){
+            document.bgColor = color;
+        }
+    </script>
+
 </head>
 
 
 <body>
 
-    <form>
-        <input type="button" value="siyah">
-        <input type="button" value="beyaz">
+     <form>
+        <input type="button" value="siyah" onclick="changeColor('#333')">
+        <input type="button" value="beyaz" onclick="changeColor('white')">
     </form>
 
 </body>
 
 </html>
+
+<!--
+    **Javascript sayfalarımızı interaktif yapabilmemizi sağlar. Html ile şu ana kadar yaptığımız sayfalar hep statikti ama js ile artık 
+    interaktif, etkileşimli ve kinetik olacaktır. Html dökümanımız içerisine yazacağımız script etiketi ile yazdığımız js dosyalarını
+    çağırabilir veya direk script etiketlerinin arasına js kodlarımızı yazabiliriz.
+
+    Yukarıdaki örneği inceleyelim
+
+    **
+        <script>
+            function changeColor(color){
+                document.bgColor = color;
+            }
+        </script>
+
+            burası html dosyamızdaki elementler ile etkileşime geçicek olan fonksiyonu tanımladığımız kısımdır.Fonksiyonun yapısı şu 
+            şekildedir.
+
+            function changeColor(color)
+
+            function yazarak fonksiyon geliceğini belirttik. Daha sonra fonksiyonumuza isim verdik (chanceColor) ve daha sonrada paran-
+            tez aralarına da parametre tanımladık. Bu parametre JS fonksiyonumuzun içine yazacağımız komutlarla etkileşime geçebilmesini
+            sağlayacaktır.
+
+            document.bgColor = color; ==> yandaki document. kısmı bütün html body yi kapsadığını belirtir.
+                                      ==> bgColor ise arkaplan rengi değiştirme komutudur.
+                                      ==> onuda color parametresi ile eşleştirerek doğrudan fonksiyonumuz ile ilişkili hale getirdik.
+ 
+
+    **
+         <input type="button" value="siyah" onclick="changeColor('#333')">
+
+            buradaki input elementinde daha önceki html derslerinden bir farklılık var. Evet onclik eventi bingo!! Onclick eventi bir 
+            elemente tıklandığı zaman bir JS fonksiyonunu tetiklemeyi sağlar. Bunun kullanımı için onclick diyip tırnak işaretleri ara-
+            sına tanımladığımız JS fonksiyonunun adını yazarız.
+            
+
+   hadi yukarının olay akışını özetleyelim.
+
+   changeColor adında bir JS fonksiyonu tanımladık, bu fonksiyonun aşağısına document.bgColor ile tüm body yi tanımlayacak şekilde arka
+   plan rengini değiştiren bir komut atadık ve color parametresi ile fonksiyona bağladık. geldik input elementimize onclick diyerek 
+   eventi içerisine tanımladığımız JS fonksiyonunun adını yazıp, parantez içine bir değer atayarak o butona tıkladığımızda fonksiyon aktive olur parantez içerisine yazdığımız #333 değerini color parametresi aracılığı ile document.bgColor a atar ve document.bgColor
+   gerekli işlemleri yapar.
+
+
+
+-->
