@@ -1,5 +1,5 @@
 var name = 'Arin';
-console.log(name);
+console.log(name); 
 
 var age = 3;
 console.log(age);
