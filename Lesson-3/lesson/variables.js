@@ -2,6 +2,13 @@ let variable1 = 4;
 let variable2 = 7;
 let calculation = variable1 + variable2;
 console.log(calculation);
+console.log(calculation+2);
+let message = 'Hello There';
+console.log(message); console.log(';');
+
+calculation = 30; /*bir değişkene yeni bir değer atarken let kullanmadık çünkü let sadece değişkeni yarar, o değişken zaten 
+                    oluşturulmuştu.*/
+console.log(calculation);
 
 /*
 
