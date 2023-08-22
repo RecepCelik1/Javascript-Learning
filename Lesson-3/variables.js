@@ -18,6 +18,6 @@ console.log(); ifadesi bize öğeyi denetle menüsündeki konsol seçeneğine ge
 
             hemen sonrasında değişkene isim veririz. Her değişkenin ismi değişkene özel olmalıdır.
 
-            daha sonra = ile bir değer atarız o değişkene. Muhtemelen ileride son kullanıcıdan veri girişi almayı öğreneceğiz ve tıpkı C dilinde olduğu gibi kullanıcıdan alınan veriler değişkenlerin arasında depolanır.
+            daha sonra = ile bir değer atarız o değişkene. Muhtemelen ileride son kullanıcıdan veri girişi almayı öğreneceğiz ve tıpkı C dilinde olduğu gibi kullanıcıdan alınan veriler değişkenlerin içinde depolanır.
 
 */

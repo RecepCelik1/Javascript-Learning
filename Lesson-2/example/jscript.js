@@ -1,10 +1,11 @@
 /*
-function cart(addCart){
+function Cart(){
 
-    console.log('loading') = addCart;
+    console.log('loading');
 
 }
 */
+
 function buy(purchase){
 
     alert("Purchased!") = purchase;
