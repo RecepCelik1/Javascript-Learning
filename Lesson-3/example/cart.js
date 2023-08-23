@@ -1,5 +1,6 @@
 let cart = 0;
 let resetMessage = 'cart was reset.';
+let message = 'Your cart is: ';
 function plus(){
     cart=cart+1
 }
