@@ -31,4 +31,18 @@ console.log(); ifadesi bize öğeyi denetle menüsündeki konsol seçeneğine ge
             daha sonra = ile bir değer atarız o değişkene. Muhtemelen ileride son kullanıcıdan veri girişi almayı öğreneceğiz ve tıpkı 
             C dilinde olduğu gibi kullanıcıdan alınan veriler değişkenlerin içinde depolanır.
 
+    **Js teki bir kaç çeşit var tanımlamayı öğrenelim.
+
+        *const ==> bu değişken ingilizce constant yani sabitin kısaltılmış halidir. tıpkı C dilinde olduğu gibi değeri daha sonra değiştirilemeyen değişkenleri tanımlamak için kullanılır.
+
+            const varName = value;
+
+        *var ==> değişken  tanımlamanın bir diğer yolu ise var kullanarak tanımlamaktır. Bu bi tık eski kaçıyor o yüzden pek tercih 
+        edilmiyor.
+
+            var varName = value;
+
+        *typeof ==> değişken ismi olmasada hadi bunuda öğrenelim. Adından da anlaşılabileceği üzere bir datanın türünü kullanıcıya 
+        belirtir. Bu data bir variable da olabilir, stringde olabilir const ta olabilir.    
+
 */
