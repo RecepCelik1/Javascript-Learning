@@ -43,4 +43,46 @@ console.log(typeof true);
 //      **C dilinden if yapısına hakimiz az çok. JS tete olaylar farklı değildir.
 
 
+    console.log(5 === '5.00');
 
+    if (true) {
+        console.log('hello');
+    } 
+    else {
+        console.log('else');
+    }
+
+
+    if(30 >= 16) {
+        console.log('You can drive');
+    } else {
+        console.log('You can not drive');
+    }
+
+    /*
+        if( booleans ) {    
+
+        } else {
+
+        }
+    
+    yapısı yukarıda olduğu gibidir. if komutunun yanındaki parantez içine yazılan formül doğru ise if kodunun içine yazılan kodları,
+    yanlış ise else kodunun içine yazılan kodları çalıştıracaktır. if-else ayrımının olduğu yere branches denir kodumuz orada artık
+    iki farklı dala ayrılacaktır.
+    
+    */
+
+        const age = 16;
+        
+        if (age >= 16) {
+            console.log('you can drive');
+            console.log('Congrats');
+        } else if(age>=14) {
+            console.log('almost there!');
+        } else {
+            console.log('you can not drive');
+        }
+
+    /* yukarıda birden fazla dala nasıl ayırılır onun güzel bir örneği var. Ezbere hiç gerek yok else dalının hemen yanına kod 
+    yazabiliyorduk bizde bu sefer kod olarak yine if kullanarak kodumuzu yeni bir dal ayırımına getirdik.
+     */
