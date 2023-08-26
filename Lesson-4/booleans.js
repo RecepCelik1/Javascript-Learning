@@ -31,7 +31,7 @@ console.log(typeof true);
     
     *   >= greater than or equal to
 
-    *   <= lee than or equal to
+    *   <= less than or equal to
 
     *   === equal to
 
