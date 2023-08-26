@@ -31,7 +31,7 @@ function rock() {
             alert('you win!!');
             player = player + 1;
          } 
-
+         
 }
 
 

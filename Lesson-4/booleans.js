@@ -85,4 +85,20 @@ console.log(typeof true);
 
     /* yukarıda birden fazla dala nasıl ayırılır onun güzel bir örneği var. Ezbere hiç gerek yok else dalının hemen yanına kod 
     yazabiliyorduk bizde bu sefer kod olarak yine if kullanarak kodumuzu yeni bir dal ayırımına getirdik.
-     */
+-     
+    */
+
+
+/*   
+        **logical operators**
+    
+    && ==> and
+
+    || ==> or
+
+    !  ==> not (uno reverse cart!)
+
+
+*/
+
+
