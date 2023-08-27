@@ -71,5 +71,26 @@ olarak verecektir.
     -
     * return fonksiyonunun bir diğer özelliği ise fonksiyonu bitirip başa dönmesidir. fonksiyon returnü gördüğü anda biter bu yüzden 
     returnden sonra yazdıklarımız çalışmayacaktır.
- 
+*/
+
+/*      
+                **Fonksiyon Parametreleri**
+
+        Parametreler, return statemntların tersidir. return statement fonksiyonun dışarıya bir değer çıktı vermesini sağlarken  
+        parametler fonksiyonların içine veri girişi olabilmesini sağlar.tanımladığımız parametler değişken olarak görev yapar.
+
+*/
+
+        function name(parameterName,parameterName2) {
+
+            console.log(parameterName * (1/1000));
+            console.log(parameterName2 * (1/1000));
+
+        }
+
+/* yukarıdaki gibi kullanılır. artık bu fonksiyonu çağırdığımızda 
+
+        name(); şu şekilde, parantez içine yazdığımız value parameterName adındaki parametreye atanacaktır.
+        name(2000);  ==> parameterName değişkenine 2000 değeri atandı.
+        name(2000, 3000);
 */
