@@ -36,7 +36,22 @@ olarak verecektir.
 
     hadi bu meretin syntaxına bakalım.
 
-        *return diyip tanımlarız sonra bi value veririz ve fonksiyon o valueyi çıktı yapar.
+        *return diyip tanımlarız sonra bi value veririz ve fonksiyon o valueyi çıktı yapar. Aynı zamanda direkt olarak bir değişekenide
+        çıktı verebilir. ama sadece değişkenin değerini değişkenin kendisini değil.
+
+
+        function name1() {
+
+            let var1 = 5;
+            return var1;
+        }
+
+        let var1 = name1();
+        
+        diyerek fonksiyon içerisindeki var1 değişkeninin içinde hangi değer varsa fonksiyon onu çıktı olarak verdi daha sonra dışarıda 
+        var1 değişkeni tanımladık onuda fonksiyona eşitleyerek fonksiyon içerisindeki var1 değişkenini fonksiyon dışında da kullanmış
+        olduk.
+
 
         return 5; dediğimizde fonksiyon dışarıya 5 değerini bastırır. prototürkün klonlama yaptığı videoda return statementın altına 
         html kodlarını dizerek daha sonra fonksiyonu çağırıp o html kodlarının çıktısını alıp kullandı böyle bir kullanım vardı ama
@@ -50,6 +65,11 @@ olarak verecektir.
 
                 export defaul functionName; ifadesi o js sayfası içerisine tanımla bir çok fonksiyondan hangisinin defaul olarak 
                 seçileğini belirtir. daha sonra bu js dosyasını başka bir js içinde import ettiğimizde hödük diye o fonksiyon ekrana
-                fırlıyor.
+                fırlıyor. ve ayrıca export edilmeyen fonksiyon başka bir js doyası içirisine importlanamaz.
+
+        
+    -
+    * return fonksiyonunun bir diğer özelliği ise fonksiyonu bitirip başa dönmesidir. fonksiyon returnü gördüğü anda biter bu yüzden 
+    returnden sonra yazdıklarımız çalışmayacaktır.
  
 */
