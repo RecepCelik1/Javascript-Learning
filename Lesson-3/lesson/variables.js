@@ -24,7 +24,7 @@ console.log(); ifadesi bize öğeyi denetle menüsündeki konsol seçeneğine ge
 
         * let variable1 = 4  yada let variable1 = 'string' 
 
-            let derleyiciye bir değişken oluşturmak istediğimizi bildirir ve derleyici bizim için bir değişken oluştururç
+            let derleyiciye bir değişken oluşturmak istediğimizi bildirir ve derleyici bizim için bir değişken oluşturur.
 
             hemen sonrasında değişkene isim veririz. Her değişkenin ismi değişkene özel olmalıdır.
 
